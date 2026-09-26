@@ -1,9 +1,7 @@
 # DILEEP BODDU
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Dileep Boddu — AI / ML Engineer GitHub profile banner">
+  <img src="./cyber-banner.svg" alt="Dileep Boddu — AI / ML Engineer cyberpunk profile banner">
 </picture>
 
 ## About
