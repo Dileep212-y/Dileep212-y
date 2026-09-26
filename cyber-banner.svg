@@ -28,9 +28,8 @@
 
 <rect x="34" y="82" width="432" height="500" rx="28" fill="#06101d" stroke="#22d3ee" stroke-opacity=".75" stroke-width="2"/>
 <g clip-path="url(#portraitClip)">
-  <image href="https://avatars.githubusercontent.com/u/208431920?v=4" x="34" y="82" width="432" height="500" preserveAspectRatio="xMidYMid slice" filter="url(#mono)"/>
-  <rect x="34" y="82" width="432" height="500" fill="url(#scan)"/>
-  <rect x="34" y="82" width="432" height="500" fill="#00111f" opacity=".12"/>
+  <image href="https://avatars.githubusercontent.com/u/208431920?v=4" x="34" y="82" width="432" height="500" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="34" y="82" width="432" height="500" fill="#00111f" opacity=".10"/>
 </g>
 <rect x="50" y="98" width="400" height="468" rx="20" fill="none" stroke="#67e8f9" stroke-opacity=".5"/>
 <path d="M35 160H90M35 160V115M465 505H410M465 505V550" stroke="#22d3ee" stroke-width="3" filter="url(#neon)"/>
