@@ -29,13 +29,13 @@ Gayatri Vidya Parishad College · 2022–2025
 ## Featured Projects
 
 ### Eco Drive AI
-Agentic vehicle carbon-footprinting and eco-driving system with multi-agent analysis, ML-based fuel prediction, route analysis, driving analysis, and carbon-impact calculations.
+Agentic AI for vehicle carbon footprinting and eco-driving.
 
 ### AQI Prediction
-Machine-learning application for air-quality prediction and health-impact analysis using pollutant and meteorological data.
+ML-based air-quality prediction and impact analysis.
 
 ### Image Caption Generator
-CNN + LSTM image-captioning system using VGG16 and the Flickr8k dataset.
+CNN + LSTM image captioning with VGG16 and Flickr8k.
 
 ## Engineering Stack
 
