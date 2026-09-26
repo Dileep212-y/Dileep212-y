@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#030712"/><stop offset=".5" stop-color="#07172a"/><stop offset="1" stop-color="#020617"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#22d3ee" stop-opacity=".30"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <filter id="neon"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="mono">
+    <feColorMatrix type="matrix" values="0.35 0 0 0 0.05  0 0.9 0 0 0.08  0 0 1 0 0.25  0 0 0 1 0"/>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-opacity=".09"/></pattern>
+  <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 1H8" stroke="#22d3ee" stroke-opacity=".22"/></pattern>
+  <clipPath id="portraitClip"><rect x="34" y="82" width="432" height="500" rx="28"/></clipPath>
+</defs>
+
+<rect width="1180" height="620" rx="26" fill="url(#bg)"/>
+<rect width="1180" height="620" rx="26" fill="url(#grid)"/>
+<circle cx="255" cy="300" r="330" fill="url(#glow)"/>
+<circle cx="970" cy="280" r="360" fill="url(#glow)" opacity=".45"/>
+
+<rect x="22" y="22" width="1136" height="576" rx="24" fill="none" stroke="#22d3ee" stroke-opacity=".48"/>
+<rect x="36" y="28" width="1108" height="40" rx="12" fill="#07111f" stroke="#334155"/>
+<circle cx="54" cy="48" r="5" fill="#ef4444"/><circle cx="72" cy="48" r="5" fill="#eab308"/><circle cx="90" cy="48" r="5" fill="#22c55e"/>
+<text x="112" y="53" fill="#b7d7e8" font-family="monospace" font-size="15">dileep@developer:~$ ./profile --visual</text>
+<text x="1070" y="53" text-anchor="end" fill="#4ade80" font-family="monospace" font-size="14">● ONLINE</text>
+
+<rect x="34" y="82" width="432" height="500" rx="28" fill="#06101d" stroke="#22d3ee" stroke-opacity=".75" stroke-width="2"/>
+<g clip-path="url(#portraitClip)">
+  <image href="https://avatars.githubusercontent.com/u/208431920?v=4" x="34" y="82" width="432" height="500" preserveAspectRatio="xMidYMid slice" filter="url(#mono)"/>
+  <rect x="34" y="82" width="432" height="500" fill="url(#scan)"/>
+  <rect x="34" y="82" width="432" height="500" fill="#00111f" opacity=".12"/>
+</g>
+<rect x="50" y="98" width="400" height="468" rx="20" fill="none" stroke="#67e8f9" stroke-opacity=".5"/>
+<path d="M35 160H90M35 160V115M465 505H410M465 505V550" stroke="#22d3ee" stroke-width="3" filter="url(#neon)"/>
+<text x="58" y="126" fill="#67e8f9" font-family="monospace" font-size="12">VISUAL.IDENTITY // LIVE</text>
+<text x="58" y="548" fill="#f8fafc" font-family="monospace" font-size="18" font-weight="bold">DILEEP BODDU</text>
+<text x="58" y="570" fill="#22d3ee" font-family="monospace" font-size="11">AI / ML ENGINEER</text>
+
+<rect x="492" y="82" width="664" height="500" rx="28" fill="#07111f" fill-opacity=".92" stroke="#334155"/>
+<text x="522" y="112" fill="#4ade80" font-family="monospace" font-size="13">›› whoami</text>
+<text x="522" y="160" fill="#f8fafc" font-family="monospace" font-size="38" font-weight="bold">DILEEP <tspan fill="#22d3ee">BODDU</tspan></text>
+<text x="524" y="192" fill="#94a3b8" font-family="monospace" font-size="15">AI / ML ENGINEER  ·  DATA SCIENCE  ·  AGENTIC AI</text>
+<line x1="522" y1="216" x2="1124" y2="216" stroke="#334155"/>
+
+<text x="522" y="246" fill="#4ade80" font-family="monospace" font-size="13">01 // PROFILE</text>
+<text x="522" y="273" fill="#dbeafe" font-family="monospace" font-size="13">Visakhapatnam, Andhra Pradesh, India</text>
+<text x="522" y="297" fill="#cbd5e1" font-family="monospace" font-size="12">BCA — Data Science · Gayatri Vidya Parishad College</text>
+<text x="522" y="320" fill="#cbd5e1" font-family="monospace" font-size="12">Python Intern — DataPro Institution · May–July 2024</text>
+
+<text x="522" y="355" fill="#4ade80" font-family="monospace" font-size="13">02 // STACK</text>
+<g font-family="monospace" font-size="11">
+  <rect x="522" y="370" width="72" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="536" y="387" fill="#e0f2fe">Python</text>
+  <rect x="602" y="370" width="124" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="616" y="387" fill="#e0f2fe">Machine Learning</text>
+  <rect x="734" y="370" width="108" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="748" y="387" fill="#e0f2fe">Deep Learning</text>
+  <rect x="850" y="370" width="78" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="864" y="387" fill="#e0f2fe">FastAPI</text>
+  <rect x="936" y="370" width="70" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="950" y="387" fill="#e0f2fe">React</text>
+  <rect x="1014" y="370" width="96" height="25" rx="12" fill="#0f172a" stroke="#0891b2"/><text x="1028" y="387" fill="#e0f2fe">Google ADK</text>
+</g>
+
+<text x="522" y="430" fill="#4ade80" font-family="monospace" font-size="13">03 // SELECTED WORK</text>
+<rect x="522" y="445" width="184" height="92" rx="14" fill="#0b1a2d" stroke="#164e63"/>
+<text x="538" y="469" fill="#22d3ee" font-family="monospace" font-size="12" font-weight="bold">ECO DRIVE AI</text>
+<text x="538" y="490" fill="#cbd5e1" font-family="monospace" font-size="10">Agentic AI for vehicle</text><text x="538" y="506" fill="#cbd5e1" font-family="monospace" font-size="10">carbon &amp; eco-driving.</text>
+<text x="538" y="523" fill="#4ade80" font-family="monospace" font-size="10">› MULTI-AGENT</text>
+
+<rect x="720" y="445" width="184" height="92" rx="14" fill="#0b1a2d" stroke="#164e63"/>
+<text x="736" y="469" fill="#22d3ee" font-family="monospace" font-size="12" font-weight="bold">AQI PREDICTION</text>
+<text x="736" y="490" fill="#cbd5e1" font-family="monospace" font-size="10">ML-based air-quality</text><text x="736" y="506" fill="#cbd5e1" font-family="monospace" font-size="10">prediction &amp; analysis.</text>
+<text x="736" y="523" fill="#4ade80" font-family="monospace" font-size="10">› ML PIPELINE</text>
+
+<rect x="918" y="445" width="192" height="92" rx="14" fill="#0b1a2d" stroke="#164e63"/>
+<text x="934" y="469" fill="#22d3ee" font-family="monospace" font-size="12" font-weight="bold">CAPTION AI</text>
+<text x="934" y="490" fill="#cbd5e1" font-family="monospace" font-size="10">CNN + LSTM image</text><text x="934" y="506" fill="#cbd5e1" font-family="monospace" font-size="10">captioning with VGG16.</text>
+<text x="934" y="523" fill="#4ade80" font-family="monospace" font-size="10">› COMPUTER VISION</text>
+
+<text x="1108" y="568" text-anchor="end" fill="#64748b" font-family="monospace" font-size="10">BUILD · LEARN · SHIP</text>
+</svg>
